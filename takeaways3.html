@@ -22,7 +22,7 @@ For knowledge organization, a formal representation is essential to express thin
 <h3>Controlled Natural Language</h3>
 
 <p class="counter">
-Replace this text with your takeaway of Lecture 6 about the topic of "Controlled Natural Language". Use between 100 and 200 words.
+There will always be a trade-off between the usage of natural languages and formal languages for writing precise and processable notations for the representation of knowledge. For non-experts the natural language, i.e. English is according to its i) naturalness and ii) simplicity the best fit. Formal languages, i.e. first-order logic is with the respect to its iii) precision and iv) expressiveness the preferred choice in machine processed scenarios. These four options are summarized into the PENS classification scheme which compares natural and formal languages. Controlled natural languages (CNLs) are trying to close this gap between natural and formal languages. CNLs are a subset of natural languages but with restricted grammar, less lexicon, and restricted semantics. This led to (e.g.) fewer ambiguities on the one side but increases the clarity of the semantics on the other side. This solution offers the possibility for machine readability by transforming these CNLs into first-order logic in the background (e.g. by using a parser) and create complex reasoning out of it. However, CNLs have their own disadvantages, as writing these CNLs is still not user-friendly and tools are needed to support the writing process itself.
 </p>
 
 <h2>Literature</h2>
@@ -33,22 +33,22 @@ Replace this text with your takeaway of Lecture 6 about the topic of "Controlled
 With the book 'Introduction to Logic', Gensler (2010) introduces the basic concepts about logic and especially its terms. With the help of logic, it is possible to draw conclusions regardless of whether the questions are mathematical, philosophical, or common nature (Gensler 2010]. These conclusions are based on arguments, which break the reasoning into smaller pieces. Together with the actual conclusion, the premises results in an argument, whereby the premises as a foundation for the conclusions' proof serve. The validity of an argument is not primarily based on the premises' validity, but on the conclusion, which can be drawn from the premises. Gensler (2010) describes this as a 'follow from' relationship. If we want to prove the validity of an argument, there is no need to prove the validity of the premises itself. Instead, if an argument is sound, it is also the case that the premises have to be all true as well.
 </p>
 
-<h3 data-ranking="negative">Odell 1994</h3>
+<h3 data-ranking="neutral">Odell 1994</h3>
 
 <p class="counter">
 In logic and many directly related fields like philosophy and linguistics, it is essential to express and describe the association between parts, sub-parts, and the whole [Odell 1994]. Beyond these theoretical fields, the expression of objects is also relevant in more applied fields, e.g. in object-oriented programming (OOP). In OOP, object relationships are essential to model the real world in software. The unified modeling language (UML) is one graphical representation to model these OOP relations and uses relations like 'aggregation', 'multiplicity' or 'composition' [c.f. Rumbaugh et al. 1999]. However, Odell (1994) describes this process also as 'composition'. The author uses three different attributes to identify different object relationships: i) configuration, ii) homeomerism, and iii) invariance. How single parts come together to one whole, the composition itself could be very different and could be conducted into a combination of these attributes and influenced by several parameters. Natural language, i.e. English, serves here as an expressive mechanism to describe compositions. Words like 'partly' or 'part of' expressively describe the relationship between the objects.
 </p>
 
-<h3>Miller 1995</h3>
+<h3 data-ranking="negative">Miller 1995</h3>
 
 <p class="counter">
-Replace this text with your takeaway of the paper by Miller. Cite it as [Miller 1995]. Use between 100 and 200 words.
+In their study, Miller (1995) proposed a database for English that maps words to other related words according to their actual meaning. This sharing of 'one meaning' through several words is called 'synonymous'. On the opposite of synonymous, however, a word is 'polysemous' if one specific word can be mapped on multiple meanings [Miller 1995]. The latter is also the most difficult problem when it comes to machine readability. It is an unsolved problem (at least to the authors' knowledge in 1995) how humans capture the actual meaning of words in a specific context. However, the database WordNet categorizes words in different semantic relations and creates pointers to express their polysemy. By offering an UI, the end-users can send a word of interest to the WordNet database and get its semantic relations as a result back.
 </p>
 
-<h3>Kumar et al. 2013</h3>
+<h3 data-ranking="positive">Kumar et al. 2013</h3>
 
 <p class="counter">
-Replace this text with your takeaway of the paper by Kumar et al. Cite it as [Kumar et al. 2013]. Use between 100 and 200 words.
+Instead of scraping a website for its semantic information and using only the information layer to extract knowledge, Webzeitgeist uses a different approach [Kumar et al. 2013]. In this research the presentation layer of a website is used to gather knowledge. This procedure differs from usual studies, since the graphical representation, i.e. the design of a website, is actually not intended for machine readability. The main element for the use of such an approach is the document object model (DOM), which represents the objects of the websites as a tree structure and is necessary to render the site website. A post-process uses this DOM to extract design-related information ( e.g. fonts, images, colors, dimensions) and aggregate this information. The resulting Webzeitgeist database offers the possibilities for different use cases: scientists, as well as developers, can use the database to compute statistics about the complexity of websites; web-designers can gather knowledge about popular and common design techniques; beyond, machine learning techniques can be applied on the database content to gain new insights into design knowledge and applications.
 </p>
 
 <h2>References</h2>
