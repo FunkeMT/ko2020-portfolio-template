@@ -9,38 +9,191 @@
 
 <body>
 
-<h1>Short Paper on Knowledge Organization (replace with your own title)</h1>
+<h1>Linked Open Government Data in Developed and Developing Countries</h1>
 
 <div id="authors">
-Your Name Here
+Markus Funke (2644722)
 </div>
 
 <div class="counter">
+<h3 id="section_1">1. Introduction</h3>
 
-
-<h3>Introduction</h3>
-
-<p>Write your paper here. Use between 1200 and 1500 words (excluding references). See the course information on Canvas for the detailed guidelines and requirements.</p>
-
-<h3>Approach/Analysis/Case Study/...</h3>
-
-<p>...</p>
-
-
-<h3>Discussion</h3>
-
-<p>...</p>
-
+<p>
+Every second, digital information are acquired and stored. Together, these information build an innumerable amount of data which consits of both—data about our environment and data about ourselfs. A major proportion of these data are created by the government of any particular country. Any sector like agriculture, healthcare, law enforcement or education collects as well as generates data, which are accessible either for a entitled group of persons inside the government or for every individual as free accessible data. Latter reflects the basic principle of Open Government Data. However, this report is intended to focus on the attribute of Linked Open Government Data. Therefore, this work provides in <a href="#section_2">Section 2</a> a brief overview of all involved technologies, i.e. the differences between Open Data, Linked Open Data and Linked Open Government Data.
+Since half of the countries, which implement and offer Open Government Data are classified as developing countries [Verhulst and Young 2017], this work developes also a minor literature study about the adobtion and possibilities of Linked Open Government Data in developing countries compared to developed countries. To achieve this, <a href="#section_3">Section 3</a> uses Great Britian as use-case for a developed country and <a href="#section_4">Section 4</a> examines the aspects from a developoing countriy—Indonesia.
+<a href="#section_5">Section 5</a> analyzes and views the findings from an integrated critical point of view and supports these by further collected data.
+The last section, <a href="#section_6">Section 6</a> concludes the work and gives also perspective for future work.
+</p>
 </div>
+
+
+
+<div class="counter">
+<h3 id="section_2">2. Linked Open Government Data</h3>
+
+<p>
+Verhulst and Young (2017) outlines the process of data, which are firstly collected and eventually used, as the 'Data Life Cycle' and can be condensed to the five steps: Collection - Processing - Sharing - Analyzing - Using. If the results of this pipeline are data  which can be used by everyone without charges and behove the free-to-use license, the data are specified as <b>Open Data (OD)</b> [Berners-Lee 2009]. Applications can make use of these free data to achieve another goal as the initial intended one. <b>Linked Open Data (LOD)</b> are an extension of OD such that the data '<i>refers to data published on the Web in such a way that it is machine-readable, its meaning is explicitly defined, it is linked to other external data sets, and can in turn be linked to from external data sets</i>' [Bizer et al. 2011]. This is fullfilled, if data-sets are sharing the same vocabulary, have identifiers (URIs), are also linked to common websites, and preserve their provenance [Ding et al. 2010]. <b>Open Government Data (OGD)</b> are a specilisation of OD and focus on government data. The goal is to achieve transparency for the citizen, provide access to legal matters and involve the people in government affairs [Aryan et al. 2014]. Beyond, the state as such are a crucial data supplier to create 'citizen-centered' services [Shadbolt et al. 2012]. <b>Linked Open Government Data (LOGD)</b> combines all aspects of OD, LOD, and OGD.<br />
+
+Berners-Lee (2009) introduced five categories, i.e. 'stars', to indentify different level of LOD. The first three stars are related to the openess, machine readability and the format of the data. The fourth category requires a schemantic representation like RDF, and the fifth dimension is achieved if the data are embedded in an external context. This 5-star-model was extended by Janowicz et al. (2014) through another 5-star-rating for Linked Data vocabulary use. The present work make use of both definitions and are further explained later on.
+</p>
+</div>
+
+
+<div class="counter">
+<h3 id="section_3">3. Developed Country UK</h3>
+
+<p>
+This section uses Great Britain as use-case to analyse LOGD in an environment of a developed country. In 2015, together with Australia (also a developed country), Great Britain took second place in the Global Open Data Index (2016). Since 2013, the index rates annual countries according to their OGD. Openess, machine readability, and timeliness are only a few parameters among othes, which count towards the score and the actual rank of such OGDs. However, these index does not take the fourth and fifth dimension from Berners-Lee's 5-star-model into account. Thus, this report uses the study of Shadbolt et al. (2012) to examine also these dimensions.<br />
+
+In their research, thousond open and free datasets were uncovered. All datasets were available in an machine readable format such as CSV. Nevertheless, these datasets are available with less to zero RDF structures and distributed over several different locations without any link. This prevents end-users and third-party systems of creating comprehensive, location independend queries and services. Shadbolt et al. (2012) used an semi-automatic process, to convert available data in RDF structure and preserve provenance. Since any data were already in an machine readable format, this transformation was negligible. A crucial step next to the 5-star-data is to create also a 5-star-vocabulary according to Janowicz et al. (2014). Since all datasets are related to a particular government sector (e.g. healthcare), the vocabulary is related to this domain accordingly and could be incomprehensible for the end-user. OWL properties, such as 'OWL:sameAs' are used to achieve a link to an user-friendly vocabulary. If meta-data would be introduced and other vocabularies would reference this new vocabulary, it would also be classified as a 5-star-vocabulary. The authors created several real-world applications based on the improved data and vocabularies.<br />
+
+This use case of a developed country reveals that high ranked countries already provide an extensive amount of OGD in sufficient quality. However, comprehensive LOGD are not taken into account in this ranking and also no yet fully developed, despite the fact that the foundation and awareness for LOGD has already been created.
+</p>
+</div>
+
+
+<p>
+    - to achieve all 5 stars, it is also necessary that the country has an developed infrastructre and technology stack or at least the government.
+
+
+
+
+
+    - "W3C eGov Interest Group define open data as data publishing in raw data, machine readable to be reused by other applications that are developed by other people. Machine readable concept itself means can be read by machine, implies that data can be published with its semantic meaning." (indonesia paper)
+
+
+- Technology Linked Open Data
+It should be noted that Linked Data (LD) can also exists in a closed enviornment without reaching beyond cirtain network borders. This work, however, focus on LOD.
+    - If data should be reused in an sinnvollen nutzen, it is crucial that the data available in a machine readable format and also has semantic representation
+    - Data should be used and connected to other online data 
+    - Data should be integrated into the web ecosystem
+    - RDF implementation; but to achieve RDF it is necessary that the data are avaialbe in machine readable format like CSV and that there are no further steps necessary like extracting the data from a PDF file.
+    - Data are described in RDF and connected to other data, only then it we can talk of Linked Open Data
+    - "The Semantic Web isn't just about putting data on the web. It is about making links, so that a person or machine can explore the web of data.  With linked data, when you have some of it, you can find other, related, data." [Berners-Lee 2009]
+    - "The need for integration is due to the assumption that data are collected for specific context and reuse of these data is by relating to other data that is relevant to specific problems/needs. Therefore these criteria on 4th and 5th star become the basis on how the framework should be developed."; "Given that the data are already in the common accessible formats, the next step is to transform these into RDF and link them one another."; "LOD Framework served as a lens to magnify the range of possibility to interact with the data in order to stimulate participation from the public."; "Important point to be noted is that data publishers should be prepared to link to another dataset by using a common vocabulary either explicitly or implicitly. The common approach for a reference is time dimension and spatial/region. Under the condition of data content may not be related, category of the data modeled can be used as reference." (indonesia paper)
+    - With the help of Linked Open Data, the Open Data will be entrissen out of their own ecosystem and small selbstversorger area and connected to the web to reach out and link to the entire knowledge base to achive a single Open Web and reach out to the end-user through real-world use-cases and applicatoins. (uk paper)
+    - To create applications with a real-world function and actual usefull functionality for end-users or the citizen respectively, it is necessary to link multiple data-sets together. An example from UK Paper is delivered as meterology or transport applications. (UK Paper)
+    would fullfill all 5 stars from Berners-Lee and is applied in the government sector.
+
+- "(Linked) Open Data has enabled governments to open their public-concern data." (indonesia paper)
+- RDF link data by using subject, predicate, object (needs new paper) and organized in triples <subject, predicate, object> whereby the object usually referes to an URI, a unique identifier of an other source. 
+</p>
+
+<p>
+    [Shadbolt et al. 2012]
+- data.gov.uk consists already of many Open Government Datasets, represented in machine readable format as CSV; Thousond open and therefore free datasets already availabel; But less linked and more available at one central place without actual use-cases or integration into third pary applications.; also only less RDF structures; (UK paper)
+- They downloaded the available data-sets and converted them into RDF and enrichted with meta-data. Was easy step since any data are already available as CSV, preserve provenance --> important for linked data 
+- They developed a use-case scenario and linked different data-sets together for a nice app
+
+- They proposed application architecture which already links to data from dbpedia.org and 
+
+- They take the citizens already into account to create a transparent environment and create new services. (uk-paper) But this makes only sense, if the citizen actualy adopt and use these services. This would show the GOV that there is an actual need for OGD and therefore would contribute to the LOGD. Awareness should be created. But to create this 
+</p>
+
+
+
+
+
+
+<h3 id="section_4">4. Developing Country Indonesia</h3>
+
+<p>
+- They developed a prototype and planned for futurework a holistic framework.
+- Counts as developing country according to the International Statistical Institute (2020).
+- The analysis of Aryan et al. (2014) showed, that all available resources and data, the data are not linked since it is only distributed over several sites but not linked to each other
+- Indonesia was ranked 2014 on #45 and two years later, after this research and the proposal of the framework to increase dropped on rank #61 in 2016. 
+- Analyzed 8 online portals of Indonesia which provide Open Data. None of them were ranked with more than 3 stars and only 1 with 3 stars. This means, Indonesia does not have actual Linked Open Government Data at all.
+- They introduced a framework to transform existing data from below 3 star up to 5 stars by using different transformations and transform mechanism to convert existing data which are zum Teil also in a not machine readable format (PDF, ...), enrichted them in a semi-automatically process in a RDF structure and linked the data to achieve full LOGD principle. After that, the authors were able to use the query language SPARQL and answer questions to the data which were vorher not possible. As initial in this section stated, Indonesia was 2014 ranked on #45 with a score. However, the score of Indonesia dropped 2016 again on rank #61.
+- Periodic Table of Open Data Impact Elements (Buch)
+</p>
+
+
+
+
+
+
+<h3 id="section_5">5. Analysis</h3>
+
+<p>
+    - Half of the countries which implement Open Government Data are developing countries. (book and figure) This goes along with <a href="#figure_1">Figure 1</a>, which is explained in detail in Section <a href="#section_5">Section 5</a>
+- If there is no Open Data in the first place, it is obvious that Linked Open Data can not be achieved.
+- It is it worth to mention, that the access to internet in developing countries for individuals is way less than for developed country. According to the statistic, blb alba. Therefore, the question should be raised how LOGD are usefull for individuals in developing countries in the first place. This may be a subject for future research to examine the realtion between access to the internet for individuals and the usage of LOGD and Nutzen for the citizen.
+- Less of Open Goverment Data are already linked with other Open Government Data from other countries, which would offer a extensive oportunities. Cross-national Linked Open Government Data (UK Paper)
+- They faced more in-depth problems like creating a common ontology to convert exisiting data such that they are also understandable and readable by end-users and not only for the certain domain of the vocabulary of the data-set. Therfore, they used the OWL porperty owl:sameAs. (UK Paper)
+- In a result, a hyptohesis could be, that developed countries facing already more in-depth questions and poblemns to create an actual Linked Open Government Data environment. Developing countries are still struggling with creating the fundamental technical basis for creating Open Data Sets like convertig PDF oder properitary documents (Workd, Excel Spreadsheets) into common formats or collection the data in the first place.
+- Challenges: data needs to be open in the first place which is a long process inside the government itself (uk paper), access the data in raw-format are necessary (uk paper), meta-data should follow a common vocabulary which addresses also the needs for the end-users instead of the primary expert-domain (uk-paper), temporal or geographical gabs between dataset that limits the reusablity and linkability (uk-paper)
+- Developed countries deal rather with organizational  problems then technical problems. The step from OGD to LOGD is not that far and more a technical question.
+- Periodic Table of Open Data Impact Elements; Lp Tech Literacy and Internet Penetration; Open Data Ecosystem Elements (buch)
+</p>
+
+
+<br />
+<img src="figure1.svg" alt="Figure 1" id="figure_1">
+<sub>
+    <br />
+    <b>Figure 1:</b> Country classification (red - developed country; green - developing country) mapped on their Global Open Data Index rank in relation to the score. Great Britain as developed country is ranked as #2 with a score of 79%. Indonesia as developing country is ranked as #61 with a score of 25%. [International Statistical Institute 2020; Global Open Data Index 2017]
+    <br />
+</sub>
+
+
+
+
+
+
+
+
+<h3 id="section_6">6. Conclusion</h3>
+
+<p>
+- Next step would be not to create centralized sites which boundles the Open Government Data like the Europee statistical service Eurosat, which centralized only a few available Open Government Data-sets to achieve Linked Open Government Data for a specific use case. A Cross-national Linked Open Government Data which goes beond the border of the Europene Union and includes also developing countries and create a queriable system without a single-use-case restriction; Common ontology is necessary for that
+</p>
+
+
+
+
+
+
+
 
 
 <h3>References</h3>
 
 <ul>
-<li>Replace this with reference 1</li>
-<li>Replace this with reference 2</li>
-<li>...</li>
+<li>Aryan et al. 2014. <a href="https://ieeexplore.ieee.org/abstract/document/7062655/">Fostering government transparency and public participation through linked open government data: Case study: Indonesian public information service.</a> International Conference on Data and Software Engineering (ICODSE). IEEE.</li>
+
+<li>Bizer et al. 2011. <a href="http://eprints.epwp.eprints-hosting.org/id/eprint/92/1/bizer-heath-berners-lee-ijswis-linked-data.pdf">Linked data: The story so far.</a> Semantic services, interoperability and web applications: emerging concepts. IGI Global. 205-227.</li>
+
+<li>Ding et al. 2010. <a href="http://tw.rpi.edu/media/2013/09/23/140c2/linkedai-2010-datagov.pdf">Data-gov Wiki: Towards Linking Government Data.</a> AAAI Spring Symposium: Linked data meets artificial intelligence. Vol. 10.</li>
+
+<li>Shadbolt et al. 2012. <a href="https://eprints.soton.ac.uk/340564/2/Linked%2520OGD.pdf">Linked open government data: Lessons from data.gov.uk.</a> IEEE Intelligent Systems 27.3: 16-24.</li>
+
+<li>Verhulst and Young. 2017. <a href="https://library.oapen.org">Open data in developing economies: Toward building an evidence base on what works and how.</a> African Minds.</li>
+
+<li>Janowicz et al. 2014. <a href="https://pdfs.semanticscholar.org/e6b0/0676ed4b0696ae7b2597b1388f1b07e2dc0c.pdf">Five stars of linked data vocabulary use.</a> Semantic Web 5.3: 173-176.</li>
+
+<li>Berners-Lee. 2009. <a href="https://www.w3.org/DesignIssues/LinkedData.html">Linked Data - Design Issues. [online]</a> W3.org. [Accessed 17 October 2020].</li>
+
+<li>International Statistical Institute. 2020. <a href="https://www.isi-web.org/index.php/capacity-building/developing-countries?Itemid=167">Developing Countries - ISI. [online]</a> Isi-web.org. [Accessed 17 October 2020].</li>
+
+<li>Global Open Data Index. 2016. <a href="https://index.okfn.org/place">Global Open Data Index - Ranking. [online]</a> Open Knowledge Foundation. [Accessed 17 October 2020].</li>
+
+<li><a href=""></a></li>
 </ul>
+
+Ding, Li, et al. "Data-gov Wiki: Towards Linking Government Data." AAAI Spring Symposium: Linked data meets artificial intelligence. Vol. 10. 2010.
+
+
+
+x [International Statistical Institute 2020]
+x [Global Open Data Index 2016]
+x [Aryan et al. 2014]
+x [Janowicz et al. 2014]
+x [Berners-Lee 2009]
+x [Shadbolt et al. 2012]
+x [Bizer et al. 2011]
+x [Verhulst and Young 2017]
+x [Ding et al. 2010]
+
 
 
 <script src="https://raw.githack.com/ucds-vu/ko2020-portfolio-template/master/scripts.js"></script>
