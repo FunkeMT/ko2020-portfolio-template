@@ -1,0 +1,95 @@
+﻿id,site,name,slug,region,continent,rank,score,developing
+tw,global,Taiwan,taiwan,,,1,90,no
+au,global,Australia,australia,,,2,79,no
+gb,global,Great Britain,united_kingdom,,,2,79,no
+fr,global,France,france,,,4,70,no
+fi,global,Finland,finland,,,5,69,no
+ca,global,Canada,canada,,,5,69,no
+no,global,Norway,norway,,,5,69,no
+br,global,Brazil,brazil,,,8,68,yes
+nz,global,New Zealand,new_zealand,,,8,68,no
+nir,global,Northern Ireland,northern_ireland,,,10,67,no
+us,global,United States,United_states,,,11,65,no
+dk,global,Denmark,denmark,,,11,65,no
+mx,global,Mexico,mexico,,,11,65,yes
+co,global,Colombia,colombia,,,14,64,yes
+lv,global,Latvia,latvia,,,14,64,no
+jp,global,Japan,japan,,,16,61,no
+ar,global,Argentina,argentina,,,17,60,yes
+sg,global,Singapore,singapore,,,17,60,no
+uy,global,Uruguay,uruguay,,,19,55,no
+nl,global,Netherlands,netherlands,,,20,54,no
+se,global,Sweden,sweden,,,21,53,no
+be,global,Belgium,belgium,,,22,52,no
+cl,global,Chile,chile,,,22,52,no
+de,global,Germany,germany,,,24,51,no
+hk,global,Hong Kong,hong_kong,,,24,51,no
+ro,global,Romania,romania,,,24,51,yes
+cz,global,Czech Republic,czech_republic,,,27,50,no
+pl,global,Poland,poland,,,28,49,no
+at,global,Austria,austria,,,28,49,no
+si,global,Slovenia,slovenia,,,28,49,no
+ua,global,Ukraine,ukraine,,,31,48,yes
+in,global,India,india,,,32,47,yes
+it,global,Italy,italy,,,32,47,no
+sk,global,Slovakia,slovakia,,,32,47,no
+gr,global,Greece,greece,,,35,46,no
+bg,global,Bulgaria,bulgaria,,,36,45,yes
+py,global,Paraguay,paraguay,,,37,44,yes
+pr,global,Puerto Rico,puerto_rico,,,38,43,no
+ru,global,Russia,russia,,,38,43,yes
+im,global,Isle of Man,isle_man,,,38,43,no
+rs,global,Serbia,serbia,,,41,41,yes
+il,global,Israel,israel,,,41,41,no
+za,global,South Africa,south_africa,,,43,40,yes
+hr,global,Croatia,croatia,,,44,39,no
+pt,global,Portugal,portugal,,,45,37,no
+tr,global,Turkey,turkey,,,45,37,yes
+al,global,Albania,albania,,,47,36,yes
+ch,global,Switzerland,switzerland,,,47,36,no
+sv,global,El Salvador,el_salvador,,,49,35,yes
+me,global,Montenegro,montenegro,,,49,35,yes
+th,global,Thailand,thailand,,,51,34,yes
+mk,global,Macedonia,macedonia,,,52,31,yes
+bo,global,Bolivia,bolivia,,,53,30,no
+ph,global,Philippines,philippines,,,53,30,yes
+pe,global,Peru,peru,,,55,29,yes
+gt,global,Guatemala,guatemala,,,56,28,yes
+do,global,Dominican Republic,dominican_republic,,,57,27,yes
+ba,global,Bosnia and Herzegovina,bosnia_and_herzegovina,,,58,26,yes
+ko,global,Kosovo,kosovo,,,58,26,yes
+jm,global,Jamaica,jamaica,,,58,26,yes
+id,global,Indonesia,indonesia,,,61,25,yes
+pa,global,Panama,panama,,,61,25,no
+bd,global,Bangladesh,bangladesh,,,61,25,yes
+cr,global,Costa Rica,costa_rica,,,64,23,yes
+bt,global,Bhutan,bhutan,,,64,23,yes
+tn,global,Tunisia,tunisia,,,66,22,yes
+ir,global,Iran,iran,,,67,21,yes
+tt,global,Trinidad and Tobago,trinidad_tobago,,,67,21,no
+np,global,Nepal,nepal,,,69,20,yes
+tz,global,Tanzania,tanzania,,,69,20,yes
+gy,global,Guyana,guyana,,,69,20,yes
+pk,global,Pakistan,pakistan,,,72,19,yes
+zm,global,Zambia,zambia,,,72,19,yes
+kh,global,Cambodia,cambodia,,,74,17,yes
+bs,global,The Bahamas,bahamas,,,74,17,no
+ls,global,Lesotho,lesotho,,,76,16,yes
+gh,global,Ghana,ghana,,,76,16,yes
+na,global,Namibia,namibia,,,78,15,yes
+lc,global,Saint Lucia,saint_lucia,,,78,15,yes
+ke,global,Kenya,kenya,,,78,15,yes
+om,global,Oman,oman,,,81,14,no
+ve,global,Venezuela,venezuela,,,81,14,yes
+zw,global,Zimbabwe,zimbabwe,,,83,13,yes
+mz,global,Mozambique,mozambique,,,84,12,yes
+af,global,Afghanistan,afghanistan,,,84,12,yes
+cm,global,Cameroon,cameroon,,,86,11,yes
+my,global,Malaysia,malaysia,,,87,10,yes
+bw,global,Botswana,botswana,,,88,9,yes
+vc,global,Saint Vincent and the Grenadines,saint_vincent_grenadines,,,89,7,yes
+ag,global,Antigua and Barbuda,Antigua_Barbuda,,,90,5,no
+mw,global,Malawi,malawi,,,90,5,yes
+bb,global,Barbados,barbados,,,92,4,no
+kn,global,Saint Kitts and Nevis,saint_kitts_nevis,,,92,4,no
+mm,global,Myanmar,myanmar,,,94,1,no
